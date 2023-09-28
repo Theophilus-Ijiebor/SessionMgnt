@@ -1,0 +1,233 @@
+
+==== Front
+Cancers (Basel)
+Cancers (Basel)
+cancers
+Cancers
+2072-6694
+Molecular Diversity Preservation International (MDPI)
+
+24212780
+10.3390/cancers3021744
+cancers-03-01744
+Article
+Canine Mammary Cancer Stem Cells are Radio- and Chemo-Resistant and Exhibit an Epithelial-Mesenchymal Transition Phenotype
+Pang Lisa Y. *
+Cervantes-Arias Alejandro
+Else Rod W.
+Argyle David J.
+Royal (Dick) School of Veterinary Studies and Roslin Institute, The University of Edinburgh, Easter Bush, Midlothian, EH25 9RG, UK
+* Author to whom correspondence should be addressed; E-Mail: lisa.pang@ed.ac.uk; Tel.: +44-131-650-7684.
+6 2011
+30 3 2011
+3 2 17441762
+11 1 2011
+25 1 2011
+22 3 2011
+© 2011 by the authors; licensee MDPI, Basel, Switzerland.
+2011
+https://creativecommons.org/licenses/by/3.0/ This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution license (http://creativecommons.org/licenses/by/3.0/).
+Canine mammary carcinoma is the most common cancer among female dogs and is often fatal due to the development of distant metastases. In humans, solid tumors are made up of heterogeneous cell populations, which perform different roles in the tumor economy. A small subset of tumor cells can hold or acquire stem cell characteristics, enabling them to drive tumor growth, recurrence and metastasis. In veterinary medicine, the molecular drivers of canine mammary carcinoma are as yet undefined. Here we report that putative cancer stem cells (CSCs) can be isolated form a canine mammary carcinoma cell line, REM134. We show that these cells have an increased ability to form tumorspheres, a characteristic of stem cells, and that they express embryonic stem cell markers associated with pluripotency. Moreover, canine CSCs are relatively resistant to the cytotoxic effects of common chemotherapeutic drugs and ionizing radiation, indicating that failure of clinical therapy to eradicate canine mammary cancer may be due to the survival of CSCs. The epithelial to mesenchymal transition (EMT) has been associated with cancer invasion, metastasis, and the acquisition of stem cell characteristics. Our results show that canine CSCs predominantly express mesenchymal markers and are more invasive than parental cells, indicating that these cells have a mesenchymal phenotype. Furthermore, we show that canine mammary cancer cells can be induced to undergo EMT by TGFβ and that these cells have an increased ability to form tumorspheres. Our findings indicate that EMT induction can enrich for cells with CSC properties, and provide further insight into canine CSC biology.
+
+canine
+breast cancer
+cancer stem cell
+drug resistance
+TGFβ
+EMT
+==== Body
+pmc1. Introduction
+
+Mammary tumors are the most common neoplasms that affect female dogs (Canis familiaris), constituting half of all tumors in female dogs and from these approximately half are considered malignant [1-3]. In both women and dogs, the incidence of mammary tumor development increases with age, rarely occurring before 25 and 5 years of age, respectively [4] and is hormone dependent [5]. Canine mammary carcinomas have epidemiologic, clinical, morphologic and prognostic features similar to those of human breast cancer and therefore represent a comparative model to understand the underlying molecular mechanisms of carcinogenesis in both species [4-6].
+
+Recently, studies have identified subpopulations of cells within tumors that are responsible for tumor initiation, growth and metastasis; these cells have been termed cancer stem cells (CSC) [7,8]. CSCs have the capacity to self-renew, to initiate and maintain the tumor, and can produce heterogeneous lineages of cancer cells to compose the bulk of the tumor [9]. The cancer stem cell model therefore proposes that tumor development is akin to abnormal organogenesis [9]. In addition, CSCs are resistant to many current cancer treatments, including chemo- and radiation therapy [10-13]. Therefore conventional therapies, while killing the bulk of the tumor cells, ultimately fail because they do not eliminate the CSC population, which survives to regenerate the tumor. Further understanding the properties and mechanisms of CSCs is essential in the development of effective-anti-cancer therapies. In humans CSCs were first identified in acute myeloid leukemia [14], and more recently in melanomas [15,16], glioblastomas [17] and epithelial cancers [18-22]. In the canine model, we were the first to identify CSCs of a canine osteosarcoma cell line [23], and have subsequently isolated CSCs from a range of canine solid tumors including glioma, haemangiosarcoma and squamous cell carcinoma (data unpublished).
+
+Recent evidence has suggested that tumor progression and metastasis is dependent upon aberrant activation of epithelial to mesenchymal transition (EMT) in cancer cells, resulting in the acquisition of invasive and metastatic properties [24]. Classically, EMT is an evolutionarily conserved developmental pathway involved in tissue morphogenesis, organ fibrosis and wound healing [25]. The hallmark of EMT is the loss of cell surface E-cadherin, which is associated with disassembly of adheren junctions, acquired motility and expression of mesenchymal markers including Vimentin and Fibronectin [26]. The EMT program is regulated by multiple transcription factors, including Twist, Snail and members of the ZFH family [27-29]. It is now known that EMT activation is also associated with the maintenance of stem cell properties, and in vitro it has been shown that emergence of CSCs occurs as a result of EMT [30-32].
+
+In this study, we identified and characterized a subpopulation of putative CSCs from a canine mammary carcinoma cell line. Distinctive tumorsphere forming ability and expression of embryonic stem cell markers were identified in this subset and correlated with intrinsic resistance to DNA damaging drugs and ionizing radiation. This subset of putative CSCs was predominantly mesenchymal in terms of marker expression and invasive capacity. In addition we show, for the first time in canine cancer cells, TGFβ induction of EMT and subsequent enrichment of cancer stem cells.
+
+2. Material and Methods
+
+2.1. Cell Culture and Tumorsphere Formation
+
+Canine breast cancer derived REM134 cells (a kind gift from Prof. R.W. Else, The University of Edinburgh, UK) [33] were grown in Dulbecco's modified Eagle's medium (DMEM) (Invitrogen, Paisley, UK) supplemented with 10% fetal bovine serum and 100 μg/mL streptomycin (Invitrogen, Paisley, UK). For anchorage independent culture, REM134 cells were plated as single cells in ultralow attachment 6-well plates (Corning, CA, USA) at low cell density (1.5 × 104 cells/mL). Cells were grown in serum-free conditional medium, which contained DMEM/F12 supplemented with progesterone (20 nM), putrescine (100 μM), sodium selenite (30 nM), transferring (25 μg/mL), insulin (20 μg/mL) (Sigma Biochemicals, Dorset, UK), human recombinant bFGF (10 ng/mL) and EGF (10 ng/mL) (Peprotech, NJ, USA). Additional growth factors (100 μg/mL) were added to the media every other day. All cell cultures were maintained at 37 °C in a humidified CO2 incubator.
+
+2.2. Tumorsphere Forming Efficiency
+
+The sphere forming ability of TGFβ treated and untreated cells was determined by resuspending cells in serum-free conditional medium at a density of either 6000, 3000 or 1000 cells/well of 6-well low adherence plate (Corning, CA, USA). All experiments were conducted in triplicate. Plates were maintained at 37 °C in a humidified CO2 incubator and were maintained as before. After 7 days, the numbers of colonies were counted in 5 fields per well and representative views were photographed.
+
+2.3. RNA Extraction and Reverse Transcription PCR Analysis
+
+Total cellular RNA was extracted using RNeasy® kit (Qiagen, CA, USA) and RNA quality was determined by A260 measurement. Semi-quantitative RT-PCR analysis of mRNA expression of stem cell specific genes including Oct4, and Nanog was performed using HotStar Taq polymerase (Qiagen, CA, USA) and the following specific primers:
+
+Oct4 sense 5′-CTCTGCAGCCAATCAACCACAA-3′
+
+antisense 5′-GGAGAGGGGGATGAGAAGTACAAT-3′
+
+Nanog sense 5′-CTATAGAGGAGAGCACAGTGAAG-3′
+
+antisense 5′-GTTCGGATCTACTTTAGAGTGAGG-3′
+
+β-Actin sense 5′-CATGTTTGAGACCTTCAACACCC-3′
+
+antisense 5′-GCCATCTCTTGCTCGAAGTCCAG-3′
+
+2.4. Irradiation and Drug Treatments of Cells
+
+Cells were irradiated in culture media using a Faxitron® cabinetX-ray system, 43855D (Faxitron X-ray Corporation, IL, USA), at a central dose of 2 Gy/min. Cells were irradiated at the stated doses. Cells were treated with Doxorubicin (Pfizer, Sandwich, UK) over the indicated range of concentrations. Cells were treated with 10 ng/mL Tgfβ (Peprotech, NJ, USA) for the indicated times.
+
+2.5. Protein Detection
+
+Cells were lysed in urea lysis buffer (7 M urea, 0.1 M DTT, 0.05% Triton X-100, 25 mM NaCl, 20 mM Hepes pH 7.5). Equal amounts of protein were separated by SDS polyacrylamide gel electrophoresis (SDS PAGE), transferred to Hybond-C nitrocellulose membrane (Amersham Pharmacia Biotech, Buckinghamshire, UK) and hybridized to an appropriate primary antibody and HRP-conjugated secondary antibody for subsequent detection by ECL. Primary antibodies against β-actin and Vimentin were purchased from Abcam (Cambridge, UK). Antibodies against β-catenin, E-Cadherin and Fibronectin were purchased from BD Biosciences (Oxford, UK). Anti-Twist (L-21) was purchased from Santa Cruz Biotechnology (CA, USA). Secondary antibodies were HRP-conjugated rabbit anti-mouse IgG and swine anti-rabbit IgG, were obtained from DakoCytomation (Glostrup, Denmark).
+
+2.6. Cell Viability Assay
+
+REM134 cells were seeded in quadruplet in opaque 96-well plates (Corning, CA, USA) at 500 cells /well. A serial dilution of doxorubicin was added to the appropriate cells the following day. Alternatively, cells were treated with different doses of ionizing radiation. Dose-response curves were generated 72 hours after exposure. Cytotoxicity was measured using the CellTiter-Glo® Luminescent Cell Viability Assay (Promega, Madison, USA), which quantifies the number of viable cells in culture based on quantification of ATP present. Data was averaged and normalized against the average signal of untreated/vehicle control treated samples.
+
+2.7. Colony Formation Assay
+
+Tumorspheres and corresponding adherent parental cells were trypsinised into single cells and seeded at 500 cells/10 cm plate. The cells were irradiated at 0 Gy, 1 Gy, 2.5 Gy and 5 Gy whilst in suspension. Plates were incubated at 37 °C in humidified CO2 incubator until colonies were visible. Growth media was changed once a week. The colonies were fixed by incubating with ice-cold methanol for 5 minutes at room temperature. Colonies were stained with Giemsa stain (Sigma-Aldrich, Dorset, UK) according to the manufacturer's instruction, and counted. Each experimental condition was assayed in quadruplicate.
+
+2.8. Invasion Assay
+
+The invasive ability of cells was determined using the QCM™ collagen-based cell invasion assay kit (Millipore, MA, USA) was used according to the manufacturer's instructions. Cells were seeded into the upper inserts at 1 × 105 cells per insert in serum-free DMEM. Cells were incubated at 37 °C with 5% CO2 for 48 hours. None invading cells were removed. Cells that migrated through the gel insert to the lower surface were stained and quantified by colorimetric measurement at 560 nm.
+
+2.9. Wound-induced Migration Assay
+
+REM134 cells (1 × 106) treated with either TGFβ (10 ng/mL) or a vehicle control were seeded in 100 mm culture plates and cultured to at least 95% confluence. Monolayer cells were washed with media and then scrapped with a plastic 200 μl pipette tip. Cells were then incubated at 37 °C with 5% CO2. The “wounded” areas were photographed by phase contrast microscopy at 0, 4, 8, 24, 28, 32 and 48 hours after scraping. The relative migration distance was calculated by the following formula: Relative migration distance (%) = 100 (A-B)/A, where A is the width of the cell wound before incubation, and B is the width of the cell wound after incubation. Results are expressed as the mean ± standard deviation.
+
+2.10. Statistical analysis
+
+The results were presented as the mean ± SD. Data were analyzed using analysis of variance and a Student's t test. p values of <0.05 were considered significant.
+
+3. Results
+
+3.1. A Subpopulation of Canine Mammary Carcinoma Cells Have Tumorsphere-forming Capacity
+
+Previous studies have shown that cancer stem cells derived from a variety of human tumors tend to form spheroid colonies in defined serum free culture that favors the proliferation of undifferentiated cells [17,34,35]. Here, canine mammary carcinoma cells, REM134, were seeded as single cells at low-density into suspension cultures in serum-free growth factor supplemented media (Figure 1A). After 5–7 days tumorspheres were clearly visible (Figure 1B) and we estimated that approximately 1% of cells give rise to tumorspheres. To determine whether tumorspheres can be expanded in vitro, spheres were dissociated into single cell suspensions and passaged multiple times in long-term sphere forming assay. These cells repeatedly form tumorspheres for up to sixteen subsequent passages when plated under the stated culture conditions and in the absence of attachment.
+
+To further characterize tumorspheres as a primitive sub-population of REM134 cells, we examined the expression of embryonic stem cell markers Oct4 and Nanog Oct4 and Nanog are transcriptional determinants essential for self-renewal and maintenance of the undifferentiated state [36]. Here we show that Oct4 and Nanog are expressed at a higher level in tumorspheres compared to parental adherent cells (Figure 1C). Thus, the canine mammary carcinoma cell line, REM134, contains a sub-population of cells that can survive in the absence of attachment, forms tumorspheres that can be expanded in vitro, and express embryonic stem cell makers which may be required for maintaining these cells in a primitive state.
+
+3.2. Canine Mammary Carcinoma Stem Cells Exhibit Greater Resistance to Chemo- and Radiation Therapy
+
+To determine whether tumorspheres cells preferentially survive after treatment with chemotherapeutic agents, tumorspheres were dissociated into single cells and treated with increasing concentrations of the cancer chemotherapeutic drug, doxorubicin. Doxorubicin is an anti-tumor antibiotic DNA damaging agent and is commonly used in veterinary and human cancer chemotherapy protocols. We used doses of Doxorubicin in cell culture experiments that correlate to concentrations that can be achieved in vivo. Cell viability was assayed 72 hours after treatment. Cells from tumorspheres demonstrated a significantly increased resistance to the cytotoxic effect of doxorubicin compared to parental adherent cells (Figure 2A).
+
+Previously we have shown that tumorspheres derived from this cell line are more resistant to the anti-tumor effect of interferons- ω [37], consistent with increased resistance to doxorubicin. In addition, we compared the intrinsic radiosensitivity of cells dissociated from tumorspheres and parental adherent cells by measuring cell viability and clonogenic analysis. We used radiation doses based upon the therapeutic dose range. Adherent cells show a dose dependent decrease in cell viability, whereas tumorsphere viability is unaffected with increasing doses of ionizing radiation (Figure 2B). By colony formation assay we further confirmed that cells dissociated from tumorspheres are more resistant to ionizing radiation than corresponding adherent cells (Figure 2C). We have shown that REM134 cells with sphere-forming potential are more resistant to the therapeutic dose of DNA damaging agents and ionizing radiation in vitro, and therefore in a physiological setting may contribute to tumor repopulation.
+
+3.3. Tumorspheres Display Mesenchymal Features and are More Invasive
+
+The metastatic process involves cell detachment from the extracellular matrix, migration from the tumor microenvironment and subsequent invasion and attachment at a secondary site within the body. Although the mechanisms underlying tumor cell invasion remain incompletely understood, EMT has been implicated by promoting loss of contact inhibition, increased cell motility and enhanced invasiveness [26,38]. Here we examined the expression of well-known epithelial markers (E-cadherin and β-catenin) and mesenchymal markers (Fibronectin and Vimentin) [39]. Tumorspheres were dissociated into single cells and compared to parental cells. Western blot analysis showed that the expression of E-cadherin and β-catenin was significantly decreased, whereas that of Fibronectin and Vimentin was significantly increased in tumorspheres compared to parental adherent cells (Figure 3A). Therefore tumorspheres that exhibit increased resistance to ionizing radiation and chemotherapy, have a mesenchymal phenotype.
+
+As EMT is associated with increased invasiveness, the invasive capacity of cells dissociated from tumorspheres and matched adherent cells was evaluated using the Boyden chamber assay. Tumorspheres displayed a significantly greater invasive potential compared to adherent cells (Figure 3B and 3C), consistent with the hypothesis that cancer stem cells contribute to invasion and migration of the tumor.
+
+3.4. TGFβ Treatment of REM134 Cells Induces an Epithelial to Mesenchymal Transition and Enhances Tumorsphere Forming Potential
+
+Previous studies have shown that EMT activation of human neoplastic mammary epithelial cells is associated with enrichment of cells with stem-like properties [31]. Here we have shown that canine tumorspheres have a mesenchymal phenotype and increased invasiveness, and may have undergone EMT. To investigate if an experimentally induced EMT in canine mammary carcinoma cells can also result in enrichment of putative cancer stem cells, we treated these cells with TGFβ, a potent inducer of EMT. Within 72 hours of treatment with TGFβ, the cells show a clearly manifested morphological change. The untreated cells are characterized by a cobblestone appearance whereas TGFβ treated cells have an elongate fibroblastic phenotype indicative of mesenchymal cells (Figure 4A). The morphological change is associated with changes in protein expression of molecular markers of EMT. In the TGFβ treated cells there is a decrease in the epithelial markers E-cadherin and β-catenin, and an up regulation of the mesenchymal markers Fibronectin and Twist (Figure 4B). This data supports the hypothesis that TGFβ can activate EMT in canine cells.
+
+To investigate the effect of TGFβ on cellular migration, monolayer wound-induced migration assays were performed. A wound was made in a sub-confluent cell monolayer and cells were allowed to migrate into the cell-free area. The distance moved by cells in the untreated and TGFβ treated cells was compared. TGFβ treatment significantly enhanced the migration and wound healing capacity of REM134 cells (100% closure of the wound in 28 hours) as compared to untreated cells (57% closure in 28 hours) (Figure 4C and D). Thus, the migratory potential of REM134 cells is enhanced by TGFβ treatment.
+
+EMT activation is proposed to enrich the proportion of cancer stem cells with a given cell population. Therefore we tested the ability of TGFβ treated cells to form tumorspheres when grown in suspension cultures, as an in vitro measure of cancer stem cell activity. TGFβ treated cells formed large clearly identifiable tumorspheres after 7 days in culture (Figure 5A) and showed an ∼8-fold increase in tumorsphere forming ability relative to untreated cells (Figure 5B). This data indicates that canine mammary carcinoma cells induced to undergo an EMT by TGFβ contained a significantly greater proportion of cells with a CSC-like phenotype compared to control cells.
+
+4. Discussion
+
+Breast cancer is a major cause of morbidity and mortality in women. However, the majority of cancer related therapeutic studies rely upon rodent models of human cancer that rarely translate into clinical success in human patients [9,40]. Recent advances in veterinary medicine, notably vaccination regimes for once fatal infectious diseases, has led to an increase in age-related diseases of our pet dogs and cats which mirrors the pattern of human public health. In the UK, approximately 1 in 3 dogs will develop cancer, and with approximately 7 million dogs resident in the UK, this provides an exciting opportunity to exploit these cancers in terms of identifying cancer-associated genes, identifying environmental risk factors and understanding tumor progression [9]. In contrast to rodent models of human cancer, cancers that arise in dogs develop naturally and in the context of an intact immune system where tumor, microenvironment and host are syngeneic. Histologically, the majority of human cancers are well represented in the canine population, including breast cancer, melanoma, head and neck squamous cell carcinoma and osteosarcoma, and follow a similar clinical course [41]. Importantly, these observed similarities can be supported with genetic evidence, with the publication of the canine genome and the increased portfolio of molecular tools available for this species [42]. For example, a recently constructed syntenic karyotype map between humans and dogs demonstrated strong similarities in cytogenetic abnormalities in Non-Hodgkin lymphoma occurring in both these species [43].
+
+With regards to breast cancer, the gene expression profile of metastatic canine mammary carcinomas has been determined by utilizing the canine specific affymetrix array. Importantly, this expression profile significantly overlaps with expression profiles of metastatic human breast cancer. In the subset of overlapping genes there is enrichment of genes associated with cell cycle regulation, protein kinases, DNA integrity checkpoint and protein metabolism [44]. In humans, several genes predisposing to breast cancer have been identified, but the majority of risk factors remain unknown. Even less is known about the inherited risk factors underlying canine mammary tumors. Germ line mutations in BRCA1 and BRCA2 account for 5% to 10% of all breast cancer in women [45], and correspondingly in dogs, germ line mutations in the same genes, as determined by candidate gene association, have also been shown to predispose to canine mammary carcinoma [46]. This recent evidence indicates that the molecular drivers and mechanisms of canine and human carcinogenesis are analogous. Here we further contribute to the evidence that canine mammary carcinoma is a model system that can be used alongside traditional rodent models to study the equivalent human disease. In the present study we utilized the REM134 cell line, and report that a subpopulation of canine mammary carcinoma cells may be representative of canine cancer stem cells. Putative CSCs were characterized by their tumorsphere forming capacity, expression of embryonic stem cell markers and resistance to chemo- and radiation therapy. These results are comparable to the human model of mammary carcinoma. In future studies we intend to evaluate the in vivo tumorigenic potential of isolated canine CSCs, and to investigate if CSCs can be isolated from primary canine breast cancer tissue.
+
+Breast cancer was the first solid tumor from which CSCs were isolated, and this seminal paper provided compelling evidence for the presence of functional heterogeneity within the tumor population [18]. CSCs exhibit an ability to undergo self-renewal while sustaining a multipotent differentiation capacity to maintain tumor development indefinitely [7,47]. Previous studies have also shown that CSCs can be isolated from established cell lines, indicating that they are also maintained in a cellular hierarchy [48,49]. Human breast cancer stem cells were initially isolated by high expression of CD44 and low expression of CD24[18]. We have characterized a diverse range of established canine cancer cell lines, including REM134 mammary carcinoma, D17 osteosarcoma, J3T glioma, SB haemangiosarcoma, 3132 B-cell Non-Hodgkins lymphoma, and have determined that expression of CD44 in canine cancer cells is cell cycle dependent (data unpublished) and is therefore not representative of a CSC marker in this species. However, sphere formation is also an established technique used to enrich stem cells [17], and here we show that a subpopulation of canine mammary carcinoma cells can promote clonogenic tumorsphere formation and be serially passaged for multiple generations. We further characterized tumorspheres using the embryonic stem cell markers, Nanog and Oct4. Constitutive expression of the transcription factor Nanog maintains the stem cell phenotype, allowing for self-renewal and propagation [50]. Similarly, Oct4 is a POU family transcription factor, which is initially expressed in the inner cell mass of the embryo and is essential for the maintenance of pluripotency [51]. We found that canine tumorspheres express higher levels of the Oct4 and Nanog compared to parental cells. This data supports that tumorspheres have a primitive phenotype and are representative of a CSC population.
+
+After surgery, ionizing radiation and chemotherapy are the most effective therapy for treating both human [52] and canine mammary carcinomas, however their effectiveness remains only palliative because of the ultimate development of treatment resistance [53,54]. The CSC theory proposes that CSCs are inherently resistant to conventional therapies and have the ability to repopulate the tumors after treatment [11]. Our results confirmed that tumorspheres derived from a canine mammary carcinoma cell line are more resistant to the chemotherapeutic drug doxorubicin and ionizing radiation, compared to parental cells. The molecular mechanisms underlying the intrinsic resistance of CSCs to conventional therapies remain elusive. However, previous studies have shown that CSCs express high levels of drug transporters [55,56]; anti-apoptotic proteins [57,58]; and preferentially activate DNA damage pathways [10]; Wnt/β-catenin pathways [59] and Akt/PKB survival pathways [60]. Interestingly, EMT of tumor cells has also been shown to contribute to drug resistance [25,30,61,62], although this remains mechanistically undefined.
+
+Compelling evidence exists relating EMT to tumor metastasis and more recently to the emergence of CSCs. EMT is classically associated with the process of tissue morphogenesis during embryonic development, and is characterized by complex changes in gene expression [24]. Thus, epithelial and mesenchymal cells can be clearly distinguished by the expression of a number of markers [24]. EMT during embryonic development involves the loss of polarity and gain of motile characteristics of mesenchymal cells, which has prompted comparisons with metastatic cancer cells during malignant progression [63]. Subsequent studies have shown that EMT is a key step towards cancer metastasis, and that induction of EMT enhances cancer metastasis through enhanced invasion [64]. Here, we characterised tumorspheres and parental adherent cells in the context of EMT markers. We clearly show that tumorsphere cells have a mesenchymal phenotype, including down regulation of epithelial markers E-cadherin and β-catenin, and up regulation of mesenchymal markers Fibronectin and Vimentin, compared to parental adherent cells. Significantly, we also show that tumorspheres are more invasive than parental adherent cells, which is also indicative of a mesenchymal phenotype. Our findings are coherent with human breast cancers and breast cancer cell lines which display features of EMT [65,66], and with recent studies which have reported that loss of E-cadherin expression is positively correlated with advanced histological grade, metastasis and decreased survival [67,68].
+
+Induction of EMT in normal or neoplastic mammary epithelial cells, by TGFβ treatment or siRNA-mediated inhibition of the human CDH1 gene that encodes E-cadherin, has been shown to result in the enrichment of cells with stem-like properties [31,32]. This observation has enabled, for the first time, high-throughput screening to identify compounds with specific activity against CSCs [30]. To our knowledge, we are the first to show that TGFβ treatment of canine mammary carcinoma cells can induce a change in cell morphology, expression of EMT markers and increased invasiveness consistent with induction of an EMT. Significantly, we also show that TGFβ treated canine mammary carcinoma cells have enhanced sphere-forming ability, indicating that EMT induction can enrich for canine cancer stem cells. CSC populations typically comprise only small minorities of cancer cell populations, typically less than 1% [69,70]. Our data confirms that canine CSC populations can be enriched in vitro by induction of EMT. This may enable us to further elucidate the mechanisms of CSC biology in the context of epigenetic regulation, drug and radiation resistance, and metastasis.
+
+5. Conclusions
+
+In summary, our data demonstrates that a putative cancer stem cell population can be isolated from a canine mammary carcinoma cell line. We show that these cells express embryonic stem cell markers, are invasive and are inherently resistant to radiation and chemotherapy. Significantly, we show that EMT induction can enrich the cancer stem cell population, and may be exploited to evaluate novel pathways to be targeted to increase therapeutic response in a clinical setting. Our results are consistent with human breast cancer models, and ultimately support the use of companion animals as a pre-clinical model system.
+
+We thank Mrs. Rhona Muirhead for technical assistance. The authors' work is supported by grants from the Biotechnology and Biological Sciences Research Council (BBSRC) (LYP) and CONACYT (Mexican Government) (AC-A).
+
+Figure 1. Isolation and characterization of putative cancer stem cells. Tumorsphere formation from the REM134 canine mammary carcinoma cell line. Single cells (A) and sphere (B). Non-quantitative RT-PCR analysis of mRNA expression of the embryonic stem cell markers Oct4 and Nanog (C).
+
+Figure 2. Tumorspheres exhibit increased resistance to conventional chemo- and radiation therapies. Adherent cells and tumorspheres were treated with increasing concentrations of doxorubicin and cell viability was assayed 72 hours post-treatment (★ p = 0.008; ★ ★ p = 0.038; #p < 0.001) (A). Radiation sensitivity was determined by assaying for cell viability 72 hours post-treatment (★ p = 0.003; ★ ★ p = 0.026; ★ ★ ★ p = 0.002) (B) and by determining colony forming ability (★ p = 0.01; ★ ★ p = 0.009; ★ ★ ★ p < 0.001) (C).
+
+Figure 3. Putative cancer stem cells exhibit mesenchymal characteristics. Tumorspheres derived from the REM134 canine mammary carcinoma cell line express mesenchymal markers (A). Representative images of invading cells, stained purple, embedded within the membrane of a boyden chamber (C) and quantified by colorimetric measurement at 560 nm (★ p < 0.008) (B).
+
+Figure 4. Treatment of canine mammary carcinoma cells with TGFβ can induce an epithelial to mesenchymal transition, as indicated by changes in cell morphology (A), protein expression levels (B), and increased migration ability (★ p = 0.018; #p = 0.014; ★ ★ p = 0.004; ##p = 0.002; up = 0.001) (C, D).
+
+Figure 5. TGFβ treated cells show an increased tumorsphere forming ability compared to untreated cells. Tumorspheres resulted less frequently from untreated cells (A), compared to cells treated with 10 ng/ml TGFβ (B). The resultant number of spherical colonies were counted (★ p < 0.001; ★ ★ p < 0.001; ★ ★ ★ p < 0.01) (C).
+==== Refs
+References
+
+1. Benjamin S.A. Lee A.C. Saunders W.J. Classification and behavior of canine mammary epithelial neoplasms based on life-span observations in beagles Vet. Pathol. 1999 36 423 436 10490210
+2. Fidler I.J. Brodey R.S. The biological behavior of canine mammary neoplasms J. Am. Vet. Med. Assoc. 1967 151 1311 1318 5624189
+3. Priester W.A. Mantel N. Occurrence of tumors in domestic animals. Data from 12 united states and canadian colleges of veterinary medicine J. Natl. Cancer Inst. 1971 47 1333 1344 5120412
+4. Cohen D. Reif J.S. Brodey R.S. Keiser H. Epidemiological analysis of the most prevalent sites and types of canine neoplasia observed in a veterinary hospital Cancer Res. 1974 34 2859 2868 4529096
+5. Schneider R. Dorn C.R. Taylor D.O. Factors influencing canine mammary cancer development and postsurgical survival J. Natl. Cancer Inst. 1969 43 1249 1261 4319248
+6. Moulton J.E. Rosenblatt L.S. Goldman M. Mammary tumors in a colony of beagle dogs Vet. Pathol. 1986 23 741 749 3811139
+7. Clarke M.F. Self-renewal and solid-tumor stem cells Biol. Blood Marrow Transplant 2005 11 14 16 15682169
+8. Reya T. Morrison S.J. Clarke M.F. Weissman I.L. Stem cells, cancer, and cancer stem cells Nature 2001 414 105 111 11689955
+9. Pang L.Y. Argyle D.J. Using naturally occurring tumours in dogs and cats to study telomerase and cancer stem cell biology Biochim. Biophys. Acta. 2009 1792 380 391 19254761
+10. Bao S. Wu Q. McLendon R.E. Hao Y. Shi Q. Hjelmeland A.B. Dewhirst M.W. Bigner D.D. Rich J.N. Glioma stem cells promote radioresistance by preferential activation of the DNA damage response Nature 2006 444 756 760 17051156
+11. Dean M. Fojo T. Bates S. Tumour stem cells and drug resistance Nat. Rev. Cancer 2005 5 275 284 15803154
+12. Diehn M. Cho R.W. Lobo N.A. Kalisky T. Dorie M.J. Kulp A.N. Qian D. Lam J.S. Ailles L.E. Wong M. Joshua B. Kaplan M.J. Wapnir I. Dirbas F.M. Somlo G. Garberoglio C. Paz B. Shen J. Lau S.K. Quake S.R. Brown J.M. Weissman I.L. Clarke M.F. Association of reactive oxygen species levels and radioresistance in cancer stem cells Nature 2009 458 780 783 19194462
+13. Diehn M. Clarke M.F. Cancer stem cells and radiotherapy: New insights into tumor radioresistance J. Natl. Cancer Inst. 2006 98 1755 1757 17179471
+14. Bonnet D. Dick J.E. Human acute myeloid leukemia is organized as a hierarchy that originates from a primitive hematopoietic cell Nat. Med. 1997 3 730 737 9212098
+15. Fang D. Nguyen T.K. Leishear K. Finko R. Kulp A.N. Hotz S. Van Belle P.A. Xu X. Elder D.E. Herlyn M. A tumorigenic subpopulation with stem cell properties in melanomas Cancer Res. 2005 65 9328 9337 16230395
+16. Schatton T. Murphy G.F. Frank N.Y. Yamaura K. Waaga-Gasser A.M. Gasser M. Zhan Q. Jordan S. Duncan L.M. Weishaupt C. Fuhlbrigge R.C. Kupper T.S. Sayegh M.H. Frank M.H. Identification of cells initiating human melanomas Nature 2008 451 345 349 18202660
+17. Singh S.K. Clarke I.D. Terasaki M. Bonn V.E. Hawkins C. Squire J. Dirks P.B. Identification of a cancer stem cell in human brain tumors Cancer Res. 2003 63 5821 5828 14522905
+18. Al-Hajj M. Wicha M.S. Benito-Hernandez A. Morrison S.J. Clarke M.F. Prospective identification of tumorigenic breast cancer cells Proc. Natl. Acad. Sci. USA 2003 100 3983 3988 12629218
+19. Bapat S.A. Mali A.M. Koppikar C.B. Kurrey N.K. Stem and progenitor-like cells contribute to the aggressive behavior of human epithelial ovarian cancer Cancer Res. 2005 65 3025 3029 15833827
+20. Collins A.T. Berry P.A. Hyde C. Stower M.J. Maitland N.J. Prospective identification of tumorigenic prostate cancer stem cells Cancer Res. 2005 65 10946 10951 16322242
+21. Ricci-Vitiani L. Lombardi D.G. Pilozzi E. Biffoni M. Todaro M. Peschle C. De Maria R. Identification and expansion of human colon-cancer-initiating cells Nature 2007 445 111 115 17122771
+22. Eramo A. Lotti F. Sette G. Pilozzi E. Biffoni M. Di Virgilio A. Conticello C. Ruco L. Peschle C. De Maria R. Identification and expansion of the tumorigenic lung cancer stem cell population Cell Death Differ. 2008 15 504 514 18049477
+23. Wilson H. Huelsmeyer M. Chun R. Young K.M. Friedrichs K. Argyle D.J. Isolation and characterisation of cancer stem cells from canine osteosarcoma Vet J. 2008 175 69 75 17851099
+24. Thiery J.P. Epithelial-mesenchymal transitions in development and pathologies Curr. Opin. Cell Biol. 2003 15 740 746 14644200
+25. Singh A. Settleman J. Emt, cancer stem cells and drug resistance: An emerging axis of evil in the war on cancer Oncogene 2010 29 4741 4751 20531305
+26. Christiansen J.J. Rajasekaran A.K. Reassessing epithelial to mesenchymal transition as a prerequisite for carcinoma invasion and metastasis Cancer Res. 2006 66 8319 8326 16951136
+27. Lo H.W. Hsu S.C. Xia W. Cao X. Shih J.Y. Wei Y. Abbruzzese J.L. Hortobagyi G.N. Hung M.C. Epidermal growth factor receptor cooperates with signal transducer and activator of transcription 3 to induce epithelial-mesenchymal transition in cancer cells via up-regulation of twist gene expression Cancer Res. 2007 67 9066 9076 17909010
+28. Bolos V. Peinado H. Perez-Moreno M.A. Fraga M.F. Esteller M. Cano A. The transcription factor slug represses e-cadherin expression and induces epithelial to mesenchymal transitions: A comparison with snail and e47 repressors J. Cell Sci. 2003 116 499 511 12508111
+29. Wellner U. Schubert J. Burk U.C. Schmalhofer O. Zhu F. Sonntag A. Waldvogel B. Vannier C. Darling D. zur Hausen A. Brunton V.G. Morton J. Sansom O. Schuler J. Stemmler M.P. Herzberger C. Hopt U. Keck T. Brabletz S. Brabletz T. The emt-activator zeb1 promotes tumorigenicity by repressing stemness-inhibiting micrornas Nat. Cell Biol. 2009 11 1487 1495 19935649
+30. Gupta P.B. Onder T.T. Jiang G. Tao K. Kuperwasser C. Weinberg R.A. Lander E.S. Identification of selective inhibitors of cancer stem cells by high-throughput screening Cell 2009 138 645 659 19682730
+31. Mani S.A. Guo W. Liao M.J. Eaton E.N. Ayyanan A. Zhou A.Y. Brooks M. Reinhard F. Zhang C.C. Shipitsin M. Campbell L.L. Polyak K. Brisken C. Yang J. Weinberg R.A. The epithelial-mesenchymal transition generates cells with properties of stem cells Cell 2008 133 704 715 18485877
+32. Morel A.P. Lievre M. Thomas C. Hinkal G. Ansieau S. Puisieux A. Generation of breast cancer stem cells through epithelial-mesenchymal transition PLoS One 2008 3 e2888 18682804
+33. Else R.W. Norval M. Neill W.A. The characteristics of a canine mammary carcinoma cell line, rem 134 Br. J. Cancer 1982 46 675 681 7138772
+34. Galli R. Binda E. Orfanelli U. Cipelletti B. Gritti A. De Vitis S. Fiocco R. Foroni C. Dimeco F. Vescovi A. Isolation and characterization of tumorigenic, stem-like neural precursors from human glioblastoma Cancer Res. 2004 64 7011 7021 15466194
+35. Villa A. Snyder E.Y. Vescovi A. Martinez-Serrano A. Establishment and properties of a growth factor-dependent, perpetual neural stem cell line from the human cns Exp. Neurol. 2000 161 67 84 10683274
+36. Pan G. Thomson J.A. Nanog and transcriptional networks in embryonic stem cell pluripotency Cell Res. 2007 17 42 49 17211451
+37. Penzo C. Ross M. Muirhead R. Else R. Argyle D.J. Effect of recombinant feline interferon-omega alone and in combination with chemotherapeutic agents on putative tumour-initiating cells and daughter cells derived from canine and feline mammary tumours Vet. Comp. Oncol. 2009 7 222 229 19891692
+38. Thiery J.P. Epithelial-mesenchymal transitions in tumour progression Nat. Rev. Cancer 2002 2 442 454 12189386
+39. Lee J.M. Dedhar S. Kalluri R. Thompson E.W. The epithelial-mesenchymal transition: New insights in signaling, development, and disease J. Cell Biol. 2006 172 973 981 16567498
+40. Khanna C. Lindblad-Toh K. Vail D. London C. Bergman P. Barber L. Breen M. Kitchell B. McNeil E. Modiano J.F. Niemi S. Comstock K.E. Ostrander E. Westmoreland S. Withrow S. The dog as a cancer model Nat. Biotechnol 2006 24 1065 1066
+41. Porrello A. Cardelli P. Spugnini E.P. Oncology of companion animals as a model for humans. An overview of tumor histotypes J. Exp. Clin. Cancer Res. 2006 25 97 105 16761625
+42. Lindblad-Toh K. Wade C.M. Mikkelsen T.S. Karlsson E.K. Jaffe D.B. Kamal M. Clamp M. Chang J.L. Kulbokas E.J. 3rd Zody M.C. Genome sequence, comparative analysis and haplotype structure of the domestic dog Nature 2005 438 803 819 16341006
+43. Thomas R. Smith K.C. Ostrander E.A. Galibert F. Breen M. Chromosome aberrations in canine multicentric lymphomas detected with comparative genomic hybridisation and a panel of single locus probes Br. J. Cancer 2003 89 1530 1537 14562028
+44. Klopfleisch R. Lenze D. Hummel M. Gruber A.D. Metastatic canine mammary carcinomas can be identified by a gene expression profile that partly overlaps with human breast cancer profiles BMC Cancer 2010 10 618 21062462
+45. Campeau P.M. Foulkes W.D. Tischkowitz M.D. Hereditary breast cancer: New genetic developments, new therapeutic avenues Hum. Genet. 2008 124 31 42 18575892
+46. Rivera P. Melin M. Biagi T. Fall T. Haggstrom J. Lindblad-Toh K. von Euler H. Mammary tumor development in dogs is associated with brca1 and brca2 Cancer Res. 2009 69 8770 8774 19887619
+47. Pang L.Y. Argyle D. Cancer stem cells and telomerase as potential biomarkers in veterinary oncology Vet J. 2010 185 15 22 20580998
+48. Locke M. Heywood M. Fawell S. Mackenzie I.C. Retention of intrinsic stem cell hierarchies in carcinoma-derived cell lines Cancer Res. 2005 65 8944 8950 16204067
+49. Tang D.G. Patrawala L. Calhoun T. Bhatia B. Choy G. Schneider-Broussard R. Jeter C. Prostate cancer stem/progenitor cells: Identification, characterization, and implications Mol. Carcinog. 2007 46 1 14 16921491
+50. Chambers I. Colby D. Robertson M. Nichols J. Lee S. Tweedie S. Smith A. Functional expression cloning of nanog, a pluripotency sustaining factor in embryonic stem cells Cell 2003 113 643 655 12787505
+51. Gidekel S. Pizov G. Bergman Y. Pikarsky E. Oct-3/4 is a dose-dependent oncogenic fate determinant Cancer Cell 2003 4 361 370 14667503
+52. NICE Early and locally advanced breast cancer: Diagnosis and treatment Nice clinical guideline 80. Available online: http://www.nice.org.uk/nicemedia/live/12132/43314/43314.pdf (accessed on 04 November 2010)
+53. Argyle D.J. Brearley M.J. Turek M.M. Decision Making in Small Animal Oncology Wiley-Blackwell Ames, Iowa, USA 2008
+54. Withrow S.J. Vail D.M. Withrow & Macewan's Small Animal Clinical Oncology 4th ed. Saunders Elsevier Philadelphia, PA, USA 2007
+55. Wu C. Alman B.A. Side population cells in human cancers Cancer Lett. 2008 268 1 9 18487012
+56. Zhou J. Wang C.Y. Liu T. Wu B. Zhou F. Xiong J.X. Wu H.S. Tao J. Zhao G. Yang M. Gou S.M. Persistence of side population cells with high drug efflux capacity in pancreatic cancer World J. Gastroenterol 2008 14 925 930 18240351
+57. Francipane M.G. Alea M.P. Lombardo Y. Todaro M. Medema J.P. Stassi G. Crucial role of interleukin-4 in the survival of colon cancer stem cells Cancer Res. 2008 68 4022 4025 18519657
+58. Todaro M. Alea M.P. Di Stefano A.B. Cammareri P. Vermeulen L. Iovino F. Tripodo C. Russo A. Gulotta G. Medema J.P. Stassi G. Colon cancer stem cells dictate tumor growth and resist cell death by production of interleukin-4 Cell Stem Cell 2007 1 389 402 18371377
+59. Woodward W.A. Chen M.S. Behbod F. Alfaro M.P. Buchholz T.A. Rosen J.M. Wnt/beta-catenin mediates radiation resistance of mouse mammary progenitor cells Proc. Natl. Acad. Sci. USA 2007 104 618 623 17202265
+60. Ma S. Lee T.K. Zheng B.J. Chan K.W. Guan X.Y. Cd133+ hcc cancer stem cells confer chemoresistance by preferential expression of the akt/pkb survival pathway Oncogene 2008 27 1749 1758 17891174
+61. Sharma S.V. Lee D.Y. Li B. Quinlan M.P. Takahashi F. Maheswaran S. McDermott U. Azizian N. Zou L. Fischbach M.A. Wong K.K. Brandstetter K. Wittner B. Ramaswamy S. Classon M. Settleman J. A chromatin-mediated reversible drug-tolerant state in cancer cell subpopulations Cell 2010 141 69 80 20371346
+62. Witta S.E. Gemmill R.M. Hirsch F.R. Coldren C.D. Hedman K. Ravdel L. Helfrich B. Dziadziuszko R. Chan D.C. Sugita M. Chan Z. Baron A. Franklin W. Drabkin H.A. Girard L. Gazdar A.F. Minna J.D. Bunn P.A. Jr. Restoring e-cadherin expression increases sensitivity to epidermal growth factor receptor inhibitors in lung cancer cell lines Cancer Res. 2006 66 944 950 16424029
+63. Yang J. Weinberg R.A. Epithelial-mesenchymal transition: At the crossroads of development and tumor metastasis Dev. Cell 2008 14 818 829 18539112
+64. Kudo-Saito C. Shirako H. Takeuchi T. Kawakami Y. Cancer metastasis is accelerated through immunosuppression during snail-induced emt of cancer cells Cancer Cell 2009 15 195 206 19249678
+65. Lombaerts M. van Wezel T. Philippo K. Dierssen J.W. Zimmerman R.M. Oosting J. van Eijk R. Eilers P.H. van de Water B. Cornelisse C.J. Cleton-Jansen A.M. E-cadherin transcriptional downregulation by promoter methylation but not mutation is related to epithelial-to-mesenchymal transition in breast cancer cell lines Br. J. Cancer 2006 94 661 671 16495925
+66. Yang J. Mani S.A. Donaher J.L. Ramaswamy S. Itzykson R.A. Come C. Savagner P. Gitelman I. Richardson A. Weinberg R.A. Twist, a master regulator of morphogenesis, plays an essential role in tumor metastasis Cell 2004 117 927 939 15210113
+67. Bankfalvi A. Terpe H.J. Breukelmann D. Bier B. Rempe D. Pschadka G. Krech R. Lelle R.J. Boecker W. Immunophenotypic and prognostic analysis of e-cadherin and beta-catenin expression during breast carcinogenesis and tumour progression: A comparative study with cd44 Histopathology 1999 34 25 34 9934581
+68. Park D. Karesen R. Axcrona U. Noren T. Sauer T. Expression pattern of adhesion molecules (e-cadherin, alpha-, beta-, gamma-catenin and claudin-7), their influence on survival in primary breast carcinoma, and their corresponding axillary lymph node metastasis APMIS 2007 115 52 65 17223851
+69. Dalerba P. Cho R.W. Clarke M.F. Cancer stem cells: Models and concepts Annu. Rev. Med. 2007 58 267 284 17002552
+70. Winquist R.J. Boucher D.M. Wood M. Furey B.F. Targeting cancer stem cells for more effective therapies: Taking out cancer's locomotive engine Biochem. Pharmacol. 2009 78 326 334 19539800
+

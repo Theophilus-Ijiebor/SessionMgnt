@@ -1,0 +1,11 @@
+.env
+<<<<<<< HEAD
+roche1/
+eployment.yaml
+deployment.yaml
+awsdeploy.txt
+=======
+roche1
+__pycache__
+>>>>>>> dev-parth
+deployment-bedrock.yaml
