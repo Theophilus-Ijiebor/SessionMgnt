@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <style>
+      body {
+        background-color: #eee;
+        font-family: "Heebo", sans-serif;
+      }
+      .card {
+        width: 48rem;
+        border: none;
+        border-radius: 20px;
+      }
+      .form-control {
+        border-radius: 4px;
+        border: 1.5px solid #e3e6ed;
+        outline: transparent solid 1px;
+        box-shadow: 0 2px 4px rgb(0 0 0 / 4%), 0 0 2px rgb(0 0 0 / 2%);
+      }
+      input.form-control:focus {
+        box-shadow: none;
+        border: 1.5px solid #e3e6ed;
+        background-color: #f7f8fd;
+      }
+      .btn-primary {
+        box-shadow: 0 2px 4px rgb(0 0 0 / 4%), 0 0 2px rgb(0 0 0 / 2%);
+        outline: transparent solid 1px;
+        background-color: #174ae4;
+        border-radius: 4px;
+      }
+      .btn-primary:focus {
+        box-shadow: none;
+      }
+      .text {
+        font-size: 13px;
+        color: #9ca1a4;
+      }
+      .price {
+        background: #f5f8fd;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        width: 97px;
+      }
+      .flex-row {
+        border: 1px solid #f2f2f4;
+        border-radius: 10px;
+        margin: 0 1px 0;
+      }
+      .flex-column p {
+        font-size: 14px;
+      }
+      span.mb-2 {
+        font-size: 12px;
+        color: #8896bd;
+      }
+      h5 span {
+        color: #869099;
+      }
+      @media screen and (max-width: 450px) {
+        .card {
+          display: flex;
+          justify-content: center;
+          text-align: center;
+        }
+        .price {
+          border: none;
+          margin: 0 auto;
+        }
+      }
+      .logo {
+        width: 100px;
+      }
+      .mb1 {
+        margin-bottom: 1rem;
+      }
+      .chat-button {
+        /* display: none; */
+        align-items: center;
+        justify-content: center;
+        gap: 6px;
+        order: 1;
+        height: 34px;
+        min-width: fit-content;
+        color: rgb(255, 255, 255);
+        fill: rgb(255, 255, 255);
+        border-radius: 20px;
+        border: none;
+        outline: transparent solid 1px;
+        cursor: pointer;
+        font-weight: 500;
+        background-color: #174ae4;
+        width: fit-content;
+        margin-top: 10px;
+        padding: 0px 12px;
+        box-shadow: 0 2px 4px rgb(0 0 0 / 14%), 0 0 2px rgb(0 0 0 / 12%);
+      }
+
+      .result-box {
+        display: flex;
+        border: 1px solid transparent;
+        outline: transparent solid 1px;
+        box-shadow: 0 2px 4px rgb(0 0 0 / 14%), 0 0 2px rgb(0 0 0 / 12%);
+        box-sizing: border-box;
+        max-width: 768px;
+        border-radius: 12px;
+        flex-direction: column;
+        gap: 10px;
+        padding: 10px 16px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        user-select: text;
+        word-break: break-word;
+        background: #f2f2f4;
+        color: #111;
+      }
+
+      p.filename {
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        /* justify-content: center; */
+        border-radius: 4px;
+        box-sizing: border-box;
+        padding: 0px 8px;
+        font-weight: 500;
+        min-width: fit-content;
+        color: #174ae4;
+        border: 1px solid #174ae4;
+        background: #fff;
+        margin-right: 10px;
+        margin-bottom: 0px;
+        margin-top: 10px;
+        font-size: 13px;
+      }
+
+      /* span.filename:hover {
+        background: #174ae4;
+        color: #fff;
+        cursor: pointer;
+      } */
+
+      #pdf-container {
+        margin-top: 10px;
+        border-top: 1px solid #a9a9a9;
+        flex-wrap: wrap;
+        align-items: baseline;
+        margin-bottom: 5px;
+      }
+
+      .mr1 {
+        margin-right: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container d-flex justify-content-center">
+      <div class="card mt-5 p-4">
+        <img class="logo mb1" src="./static/AI_chat.png" />
+        <div class="input-group mb-3">
+          <input
+            id="searchbar"
+            type="text"
+            class="form-control"
+            placeholder="Type to search"
+          />
+          <div class="input-group-append">
+            <button class="btn btn-primary" id="submit">
+              <i class="fas fa-search"></i>
+            </button>
+          </div>
+        </div>
+        <div class="col ms-2" id="user-query-container"></div>
+        <div id="message-container"></div>
+        <!--  <button
+          class="chat-button"
+          onclick="goToChatPage()"
+          type="button"
+          aria-label="Let's chat"
+        >
+          <svg
+            style="fill: white; width: 18px"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 2048 2048"
+          >
+            <path
+              d="M0 1984q0-26 8-54t15-53q23-95 48-188t48-188q-59-110-89-230T0 1026q0-141 36-272t103-246 160-207 208-161T752 37t272-37q141 0 271 36t245 104 207 160 161 207 103 244 37 272q0 140-36 270t-103 245-159 208-206 161-244 104-271 37q-124 0-244-28t-230-86L79 2046q-10 2-15 2-27 0-45-18t-19-46zm1020-64q124 0 239-32t215-90 182-139 141-182 91-215 32-239q0-124-32-238t-90-214-141-181-182-140-214-90-238-32q-123 0-237 32t-214 90-181 139-140 181-91 213-32 238q0 65 8 120t23 107 36 105 48 109q8 16 8 31 0 11-6 41t-16 69-21 84-23 86-20 74-13 50q68-16 134-32t135-33q34-8 71-19t72-11q8 0 15 2t15 6q54 25 104 45t102 35 105 22 115 8zM704 896q-26 0-45-19t-19-45q0-26 19-45t45-19h640q26 0 45 19t19 45q0 26-19 45t-45 19H704zm0 384q-26 0-45-19t-19-45q0-26 19-45t45-19h384q26 0 45 19t19 45q0 26-19 45t-45 19H704z"
+            ></path>
+          </svg>
+          <span>Let's chat</span>
+        </button>  -->
+      </div>
+    </div>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      $(document).ready(function () {
+        function showText(
+          target,
+          user_query,
+          message,
+          index,
+          interval,
+          ...pdf_list
+        ) {
+          if (index == 0) {
+            $("#user-query-contianer").html("");
+            $("#user-query-container").html(
+              "<strong>Search: </strong>" +
+                user_query +
+                "<h6 class='text-dark mt-3'><strong>Response: </strong></h6>"
+            );
+            $("#user-query-container").html();
+          }
+          if (index < message.length) {
+            $(target).append(message[index++]);
+            setTimeout(function () {
+              showText(
+                target,
+                user_query,
+                message,
+                index,
+                interval,
+                ...pdf_list
+              );
+            }, interval);
+          } else if (index === message.length) {
+            $("#message-box").append(
+              `<div class='d-flex' id="pdf-container"><span class='mr1 mt-2 text-secondary fw-bold w-100'>Learn More:</span> </div>`
+            );
+            const listItem = pdf_list[0].map(
+              (item) => `<p class='filename col text-start'>${item}</p>`
+            );
+            $("#pdf-container").append(listItem);
+          }
+        }
+        function getSearchResults() {
+          var rawText = $("#searchbar").val();
+          $("#result-box").remove();
+          $("#user-query-container").html("");
+          $.get("/getChatBotResponse", { msg: rawText }).done(function (data) {
+            var renderHtml = `<div class="flex-row justify-content-between mb-3 result-box" id='result-box'><div id="message-box"></div></div>`;
+            $("#message-container").append(renderHtml);
+            console.log(data);
+            showText(
+              "#message-box",
+              data.user_query,
+              data.Response,
+              0,
+              20,
+              data.Pdf_list
+            );
+          });
+        }
+        $("#searchbar").keypress(function (e) {
+          if (e.which == 13) {
+            getSearchResults();
+          }
+        });
+        $("#submit").click(function () {
+          getSearchResults();
+        });
+      });
+
+      function goToChatPage() {
+        location.replace("/");
+      }
+    </script>
+  </body>
+</html>

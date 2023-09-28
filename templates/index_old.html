@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <!--  -->
+    <head>
+        <link rel="stylesheet" type="text/css" href="/static/style.css">
+        <link rel="icon" href="/static/bot.png" />
+        <link rel="icon" href="/static/bot-mini.png" />
+        <link rel="icon" href="/static/user.png" />
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <h1> Lets Search  
+           
+        </h1>
+        <div>
+
+
+        <div id="container" class="container">
+           
+        
+        <div id="userInput">
+            <input id="textInput" type="text" name="msg" placeholder="Search Something" autofocus="true">
+            
+        </div>
+        <div id="chatbox1">
+            <p class="botText">
+                <span>Hi!.Search Me!.</span>
+                <textarea id="searchresponse" name="w3review" rows="4" cols="50">
+            </p>
+        </div>
+
+        <script>
+            $(document).ready(function() {
+                function getBotResponse() {
+                    var rawText = $('#textInput').val();
+                    var userHtml = '<p class="userText"><span>' + rawText + '</span></p>';
+                    $('#textInput').val("");
+                    
+                   
+                    
+                    
+                   
+                    
+                  
+                    $.get("/getChatBotResponse", { msg: rawText }).done(function(data) {
+                        var botHtml = '<p class="botText"><span>' + data['Response'] + '</span></p>';
+                        
+                        
+                        
+                        
+                        
+                        $("#chatbox").append(botHtml);
+                    });
+                }
+                
+                $('#textInput').keypress(function(e) {
+                    if(e.which == 13) {
+                        getBotResponse();
+                    }
+                });
+                $('#buttonInput').click(function() {
+                    getBotResponse();
+                })
+            }); 
+            
+            
+        </script>
+
+        
+
+        <script type="text/javascript" src="/static/index.js" ></script>
+        <script type="text/javascript" src="/static/constants.js" ></script>
+        <script type="text/javascript" src="/static/speech.js" ></script>
+
+        </div>
+    </body>
+</html>
