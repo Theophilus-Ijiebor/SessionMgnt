@@ -136,7 +136,7 @@ def run_main_script():
 
     # Usage:
     bedrock_session = create_bedrock_session()
-    # active_session = get_active_session()
+    active_session = get_active_session()
 
     # Use active_session for desired operations. Always call `get_active_session` before operations to ensure active session.
     
@@ -206,7 +206,7 @@ def run_main_script():
     chain_type_kwargs = {"prompt": PROMPT}
 
     # Call the function and store the returned values in variables
-    llm, qa = initialize_bedrock_and_qa(bedrock_session, retriever, chain_type_kwargs)
+    llm, qa = initialize_bedrock_and_qa(active_session, retriever, chain_type_kwargs)
 
     # ending section for load qa()
 
@@ -251,12 +251,12 @@ def run_main_script():
 
         # if bedrock session not active we recreate the bedrock session
         # Use get_active_session() instead of directly calling create_bedrock_session()
-        bedrock_session_active = get_active_session()
+        # bedrock_session_active = get_active_session()
 
         # retriever = store.as_retriever(search_kwargs={"k": 3})
         # chain_type_kwargs = {"prompt": PROMPT}
 
-        llm, qa = initialize_bedrock_and_qa(bedrock_session_active, retriever, chain_type_kwargs)
+        # llm, qa = initialize_bedrock_and_qa(active_session, retriever, chain_type_kwargs)
 
         ####
         docs = ask_question(qa, msg, chat_history)
@@ -346,8 +346,8 @@ def run_main_script():
         examples = module.examples
 
         # llm, qa = load_qa(project)
-        bedrock_session_active = get_active_session()
-        llm, qa = initialize_bedrock_and_qa(bedrock_session_active, retriever, chain_type_kwargs) #active bedrock session
+        # bedrock_session_active = get_active_session()
+        # llm, qa = initialize_bedrock_and_qa(active_session, retriever, chain_type_kwargs) #active bedrock session
         predictions = qa.apply(examples)
 
         eval_chain = QAEvalChain.from_llm(llm)
@@ -365,7 +365,7 @@ def run_main_script():
     @app.get("/getAESummary")
     def get_bot_response_project(
             msg: str, temp: float, top_p:float, maxCount:int, with_resp: bool = True, credentials: HTTPBasicCredentials = Depends(authenticate)):
-        llm2 = Bedrock(client=bedrock_session, credentials_profile_name="bedrock-admin", model_id="amazon.titan-tg1-large")
+        llm2 = Bedrock(client=active_session, credentials_profile_name="bedrock-admin", model_id="amazon.titan-tg1-large")
         llm2.model_kwargs = {'temperature':temp, 'topP':top_p, 'maxTokenCount':maxCount}
         result = llm2.predict(msg)
         result = re.sub(r'\n',"",result, 1)
