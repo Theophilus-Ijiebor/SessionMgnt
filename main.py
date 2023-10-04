@@ -1,10 +1,10 @@
 import os
-import tempfile    
+import tempfile
 from importlib import import_module
 import re
 import openai
 import uvicorn
-import tempfile    
+import tempfile
 import urllib.parse
 from fastapi import FastAPI, Request, Depends, HTTPException
 from fastapi.security import HTTPBasic, HTTPBasicCredentials
@@ -22,20 +22,15 @@ from langchain.embeddings import BedrockEmbeddings
 from fastapi.staticfiles import StaticFiles
 import asyncio
 import uvicorn
-import datetime
-from datetime import datetime, timedelta
-import boto3
-import os
-
-
-
-# Use active_session for desired operations. Always call `get_active_session` before operations to ensure active session.
+import boto3, json, os
+from dotenv import load_dotenv
 
 
 def run_main_script():
     app = FastAPI()
     security = HTTPBasic()
     container_name = "sample"
+
     load_dotenv()
 
     DELIMITER = "\n* "
@@ -63,84 +58,21 @@ def run_main_script():
         password="oHBDfZ8lLmg8atgFQPih"
     )
 
-    # AWS Bedrock Instance
-
-    """
-    try:
-        # Using environment variable
-        sts = boto3.client('sts',
-                           aws_access_key_id=os.getenv("ACCESS_KEY"),
-                           aws_secret_access_key=os.getenv("SECRET_KEY"),
-                           )
-        response = sts.assume_role(RoleArn="arn:aws:iam::934297252078:role/RocheBedrockRole",
-                                   RoleSessionName="ATOM-Bedrock",
-                                   DurationSeconds=7200)
-    except:
-        # Using local credentials file
-        # Create a session with the specified profile
-        sts = boto3.client('sts')
-        response = sts.assume_role(RoleArn="arn:aws:iam::934297252078:role/RocheBedrockRole",
-                                   RoleSessionName="ATOM-Bedrock",
-                                   DurationSeconds=7200)
-
-    new_session = boto3.Session(aws_access_key_id=response['Credentials']['AccessKeyId'],aws_secret_access_key=response['Credentials']['SecretAccessKey'],aws_session_token=response['Credentials']['SessionToken'])
-    bedrock = new_session.client(service_name='bedrock',region_name='us-east-1',endpoint_url='https://bedrock.us-east-1.amazonaws.com')
-    """
-
-    SESSION_DURATION = timedelta(seconds=7200)  # 7200 seconds = 2 hours
-    _session_start_time = None
-    bedrock_session = None
-
     def create_bedrock_session():
-        global _session_start_time, bedrock_session
 
-        try:
-            # Using environment variable
-            sts = boto3.client('sts',
-                               aws_access_key_id=os.getenv("ACCESS_KEY"),
-                               aws_secret_access_key=os.getenv("SECRET_KEY"),
-                               )
-            response = sts.assume_role(RoleArn="arn:aws:iam::934297252078:role/RocheBedrockRole",
-                                       RoleSessionName="ATOM-Bedrock",
-                                       DurationSeconds=7200)
-        except:
-            # Using local credentials file
-            sts = boto3.client('sts')
-            response = sts.assume_role(RoleArn="arn:aws:iam::934297252078:role/RocheBedrockRole",
-                                       RoleSessionName="ATOM-Bedrock",
-                                       DurationSeconds=7200)
+        access_key = os.getenv("ACCESS_KEY")
+        secret_key = os.getenv("SECRET_KEY")
 
-        new_session = boto3.Session(
-            aws_access_key_id=response['Credentials']['AccessKeyId'],
-            aws_secret_access_key=response['Credentials']['SecretAccessKey'],
-            aws_session_token=response['Credentials']['SessionToken']
-        )
-
-        bedrock = new_session.client(
-            service_name='bedrock',
+        bedrock = boto3.client(
+            service_name='bedrock-runtime',  # change service name to 'bedrock' if you want to list foundation models
             region_name='us-east-1',
-            endpoint_url='https://bedrock.us-east-1.amazonaws.com'
+            aws_access_key_id=access_key,
+            aws_secret_access_key=secret_key
         )
-
-        _session_start_time = datetime.now()
-        bedrock_session = bedrock
         return bedrock
 
-    def get_active_session():
-        global _session_start_time, bedrock_session
+    active_session = create_bedrock_session()
 
-        if datetime.now() - _session_start_time >= SESSION_DURATION:
-            print("Session has timed out. Reactivating...")
-            bedrock_session = create_bedrock_session()
-        return bedrock_session
-
-    # Usage:
-    bedrock_session = create_bedrock_session()
-    active_session = get_active_session()
-
-    # Use active_session for desired operations. Always call `get_active_session` before operations to ensure active session.
-    
-    # Starting section for loadqa()
     chat_history = []
 
     prompt_template = """You are an assistant for an intelligent chatbot designed to help users answer medical questions.
@@ -159,7 +91,9 @@ def run_main_script():
     chain_type_kwargs = {"prompt": PROMPT}
     VECTOR_STORE_PATH = "./data/roche/storage/"
 
-    embeddings = BedrockEmbeddings(client=bedrock_session, credentials_profile_name="bedrock-admin", model_id="amazon.titan-tg1-large")
+    #"anthropic.claude-v2"
+    # "ai21.j2-mid-v1"
+    embeddings = BedrockEmbeddings(client=active_session, credentials_profile_name="bedrock-admin", model_id="ai21.j2-mid-v1")
 
     store = PGVector(
         connection_string=CONNECTION_STRING,
@@ -169,25 +103,13 @@ def run_main_script():
 
     retriever = store.as_retriever(search_kwargs={"k": 3})
     # retriever = store.as_retriever(search_type="similarity_score_threshold", search_kwargs={"score_threshold": .7})
-    """
-    llm = Bedrock(client=bedrock_session, credentials_profile_name="bedrock-admin", model_id="amazon.titan-tg1-large")
 
-    # print("temp: "+ str(llm.temperature))
-    qa = ConversationalRetrievalChain.from_llm(
-        llm=llm,
-        chain_type="stuff",
-        retriever=retriever,
-        combine_docs_chain_kwargs=chain_type_kwargs,
-        return_source_documents=True,
-        condense_question_llm=llm
-    )
-
-    """ 
     def initialize_bedrock_and_qa(bedrock_session, retriever, chain_type_kwargs):
         llm = Bedrock(
             client=bedrock_session,
             credentials_profile_name="bedrock-admin",
-            model_id="amazon.titan-tg1-large"
+            # model_id="amazon.titan-tg1-large",
+            model_id="ai21.j2-mid-v1"
         )
 
         qa = ConversationalRetrievalChain.from_llm(
@@ -202,7 +124,7 @@ def run_main_script():
         return llm, qa
 
     # Define or fetch other required parameters
-    retriever = store.as_retriever(search_kwargs={"k": 3})
+    # retriever = store.as_retriever(search_kwargs={"k": 3})
     chain_type_kwargs = {"prompt": PROMPT}
 
     # Call the function and store the returned values in variables
@@ -249,16 +171,6 @@ def run_main_script():
         ret["num_of_documents"] = 0
         ret["document"] = {}
 
-        # if bedrock session not active we recreate the bedrock session
-        # Use get_active_session() instead of directly calling create_bedrock_session()
-        # bedrock_session_active = get_active_session()
-
-        # retriever = store.as_retriever(search_kwargs={"k": 3})
-        # chain_type_kwargs = {"prompt": PROMPT}
-
-        # llm, qa = initialize_bedrock_and_qa(active_session, retriever, chain_type_kwargs)
-
-        ####
         docs = ask_question(qa, msg, chat_history)
         # print(docs)
         d = docs["source_documents"]
@@ -345,9 +257,6 @@ def run_main_script():
         module = import_module(module_name)
         examples = module.examples
 
-        # llm, qa = load_qa(project)
-        # bedrock_session_active = get_active_session()
-        # llm, qa = initialize_bedrock_and_qa(active_session, retriever, chain_type_kwargs) #active bedrock session
         predictions = qa.apply(examples)
 
         eval_chain = QAEvalChain.from_llm(llm)
@@ -365,8 +274,8 @@ def run_main_script():
     @app.get("/getAESummary")
     def get_bot_response_project(
             msg: str, temp: float, top_p:float, maxCount:int, with_resp: bool = True, credentials: HTTPBasicCredentials = Depends(authenticate)):
-        llm2 = Bedrock(client=active_session, credentials_profile_name="bedrock-admin", model_id="amazon.titan-tg1-large")
-        llm2.model_kwargs = {'temperature':temp, 'topP':top_p, 'maxTokenCount':maxCount}
+        llm2 = Bedrock(client=active_session, credentials_profile_name="bedrock-admin", model_id="ai21.j2-mid-v1")
+        llm2.model_kwargs = {'temperature':temp, 'topP':top_p, 'maxTokens':maxCount} # 'max_tokens_to_sample'
         result = llm2.predict(msg)
         result = re.sub(r'\n',"",result, 1)
         print("Message: "+msg)
@@ -403,6 +312,5 @@ if __name__ == "__main__":
 
 
 if __name__ == "__main__":
+
     uvicorn.run("main:app", host="127.0.0.1", port=8000)
-
-
